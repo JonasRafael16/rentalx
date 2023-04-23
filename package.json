@@ -5,7 +5,7 @@
   "author": "Jonas Rafael de Lima <jonasrafael16@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "eslint": "eslint --ext .ts src --fix"
   },
   "dependencies": {
