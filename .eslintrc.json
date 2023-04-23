@@ -6,9 +6,7 @@
   },
   "extends": [
     "airbnb-base",
-    "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
@@ -56,11 +54,6 @@
     "import/no-extraneous-dependencies": [
       "error",
       { "devDependencies": ["**/*.spec.js"] }
-    ],
-    "settings": {
-      "import/resolver": {
-        "typescript": {}
-      }
-    }
+    ]
   }
 }
